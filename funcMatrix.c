@@ -2,7 +2,7 @@
 #include <math.h>
 #include "funcMatrix.h"
 
-// Функция для нахождения определителя матрицы
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РѕРїСЂРµРґРµР»РёС‚РµР»СЏ РјР°С‚СЂРёС†С‹
 float The_determinant(float matrix[][100], int n) {
    float det = 0;
    float minor[100][100];
@@ -27,7 +27,7 @@ float The_determinant(float matrix[][100], int n) {
    return det;
 }
 
-// Функция для нахождения обратной матрицы
+// Р¤СѓРЅРєС†РёСЏ РґР»СЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РѕР±СЂР°С‚РЅРѕР№ РјР°С‚СЂРёС†С‹
 void inverse(float matrix[][100], int n) {
    float det = The_determinant(matrix, n);
 
